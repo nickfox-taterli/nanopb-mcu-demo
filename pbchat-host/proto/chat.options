@@ -1,0 +1,2 @@
+ChatMsg.from max_size:16
+ChatMsg.text max_size:64

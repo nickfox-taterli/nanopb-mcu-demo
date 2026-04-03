@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ChatMsg {
+  required uint32 seq = 1;
+  required string from = 2;
+  required string text = 3;
+  optional bool ack = 4 [default = false];
+}
